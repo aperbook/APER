@@ -24,7 +24,7 @@ curve(3.374-4.355*x+1.054*x^2-0.01774*x^3+3.986e-05*x^4, from=0, to=50, add=T, c
 
 # Add two curves to the plot, which we will label 10õ and 100a, respectively. These happen to be
 # the 10 times the first and a hundred times the second derivative of z(t), respectively,
-# i.e. 10 times the velocity õ and a hundred times the acceleration a, respectively: 
+# i.e. 10 times the speed õ and a hundred times the acceleration a, respectively: 
 curve(-43.55+21.08*x-0.5322*x^2+0.001594*x^3, from=0, to=50, add=T, col="blue")
 curve(210.8-10.644*x+0.04783*x^2, from=0, to=50, add=T, col="black")
 

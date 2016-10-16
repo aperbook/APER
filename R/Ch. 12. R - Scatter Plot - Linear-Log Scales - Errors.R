@@ -9,8 +9,8 @@ errt <- c(0.1, 0.2, 0.3, 0.25, 0.3, 0.5, 0.5, 0.6, 0.7, 0.7)
 errz <- c(0, 1, 5, 10, 50, 60, 80, 100, 125, 150)
 
 # Production of the scatter plot of data with linear axes and grid:
-plot(t, z, log="y", pch=20, xlab="t (s)", ylab="z (m) or 10 (m/s) or 100a (m/s^2)", xlim=c(0,50), ylim=c(1, 1000), grid())
-# pch=20 gives the size of the dots used, xlab="t (s)" and ylab="z (m) or 10? (m/s) or 100a (m/s^2)" 
+plot(t, z, log="y", pch=20, xlab="t (s)", ylab="z (m) or 10õ (m/s) or 100a (m/s^2)", xlim=c(0,50), ylim=c(1, 1000), grid())
+# pch=20 gives the size of the dots used, xlab="t (s)" and ylab="z (m) or 10õ (m/s) or 100a (m/s^2)" 
 # give the labels of the X-Axis and Y-Axis and xlim=c(0,50) and ylim=c(1, 1000) give the range
 # of values of the two axes respectively. grid() ensures that a grid is drawn.
 

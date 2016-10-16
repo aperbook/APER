@@ -20,13 +20,10 @@ text(20, 500, "z(t)", cex=1)
 # THE FOLLOWING COMMANDS ARE OPTIONAL AND ADD VARIOUS FEATURES TO THE PLOT:
 
 # Least-squares curve fit (polynomial of 4th degree):
-fit <- nls(z~a0+a1*t+a2*t^2+a3*t^3+a4*t^4, start=list(a0=1, a1=1, a2=1, a3=1, a4=1))
+nls(z~a0+a1*t+a2*t^2+a3*t^3+a4*t^4, start=list(a0=1, a1=1, a2=1, a3=1, a4=1))
 
 # Plot the least-squares curve z(t). Note the use of x as variable instead of t:
-fitFunction <- function(x) predict(fit, list(t=x))
-curve(fitFunction, from=0, to=50, add=T, col="red")
-
-# curve(3.374-4.355*x+1.054*x^2-0.01774*x^3+3.986e-05*x^4, from=0, to=50, add=T, col="red")
+curve(3.374-4.355*x+1.054*x^2-0.01774*x^3+3.986e-05*x^4, from=0, to=50, add=T, col="red")
 # from=0, to=50 sets the range of the x (i.e. t) axis. col="red" sets the color of the line to red.
 
 

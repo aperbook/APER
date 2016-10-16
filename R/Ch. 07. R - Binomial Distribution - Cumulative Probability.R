@@ -1,6 +1,6 @@
 # R - BINOMIAL DISTRIBUTION - CUMULATIVE PROBABILITY
 
-# Enter the following values
+# Enter the following values:
 
 number.of.trials = 10
 probability.of.success = 0.5

@@ -1,6 +1,6 @@
-# POISSON DISTRIBUTION - VALUES and HISTOGRAM
+POISSON DISTRIBUTION - VALUES and HISTOGRAM
 
-# Enter the value of the mean ? of the distribution:
+# Enter the value of the mean ì of the distribution:
 
 mean = 10
 
@@ -14,5 +14,9 @@ dpois(x, mean, log = FALSE)
 
 #We create a bar plot of these probabilities:
 
-barplot(dpois(x, mean, log = FALSE), names.arg=x, xlab="Number of events, x", ylab="Probability on x events")
+barplot(dpois(x, mean, log = FALSE), names.arg=x, xlab="Number of events ,x", ylab="Probability on x events")
+
+
+
+
 

@@ -1,4 +1,4 @@
-# LEAST SQUARES FIT - PARABOLA (y = a0 + a1*x + a2*x^2)
+# R - LEAST SQUARES FIT - PARABOLA (y = a0 + a1*x + a2*x^2)
 
 # Enter the values of x and the corresponding y:
 
@@ -59,5 +59,13 @@ Da1
 
 # Standard error in a2:
 Da2
+
+############### PLOT ALSO THE PARABOLA (y = a0 + a1*x + a2*x^2) #############
+
+
+
+
+
+
 
 

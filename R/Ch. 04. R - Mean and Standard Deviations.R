@@ -1,4 +1,4 @@
-# R - MEAN AND STANDARD DEVIATIONS
+R - MEAN AND STANDARD DEVIATIONS
 
 # Enter the values given as the components of the vector x:
 
